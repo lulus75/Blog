@@ -1,0 +1,134 @@
+/* Design form */
+html, body {
+    height: 100%;
+}
+.container {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -6%;
+}
+.container:after {
+    content: "";
+    display: inline-block;
+}
+.registerForm {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 500px;
+    text-align: center;
+    padding: 25px 15px 25px 10px;
+    font: 12px Georgia, "Times New Roman", Times, serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #E4E4E4;
+}
+
+.registerForm h1>span {
+    display: block;
+    font-size: 11px;
+}
+
+.registerForm label {
+    display: block;
+    margin: 0px;
+}
+
+.registerForm label>span {
+    float: left;
+    width: 20%;
+    font-family: roboto;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #888;
+}
+
+.registerForm input[type="text"], .registerForm input[type="password"], .registerForm input[type="date"], .registerForm input[type="email"], .registerForm textarea, .registerForm select {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    text-align: center;
+    font-weight: bold;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 12px;
+    line-height:15px;
+}
+
+.registerForm textarea{
+    padding: 5px 3px 3px 5px;
+}
+
+.registerForm select {
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 74%;
+    height: 35px;
+    line-height: 25px;
+}
+
+.registerForm textarea{
+    height:100px;
+}
+
+.registerForm .button {
+    background: #E27575;
+    text-align: center;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px #9E3F3F;
+    cursor: pointer;
+}
+
+.registerForm .button:hover {
+    background: #CF7A7A
+}
+
+/* END */
+
+#errorBloc{
+    text-align: center;
+    color: red;
+    margin-bottom: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+    font-weight: bold;
+}
+
+#successBloc{
+    text-align: center;
+    color: green;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 1rem;
+    width: auto;
+    font-weight: bold;
+}
+
+.registerLogin{
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-top: -1rem;
+}
+.registerUrl{
+    text-decoration: none;
+    transition: color 0.4s ease 0s;
+    color: rgb(58,126,162);
+}
+
+.registerUrl:hover{
+    color: rgb(116,180,93);
+}
+
+@media (min-width: 1024px){
+    .registerUrl {
+        font-size: 120%;
+    }
+}

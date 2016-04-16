@@ -1,0 +1,37 @@
+.articleListTable{
+    border: 2px solid black;
+    margin: auto;
+    width: 95%;
+    font-family: roboto;
+    font-size: 80%;
+    margin-bottom: 2rem;
+}
+
+tr td{
+    height: 3rem;
+    border: 2px solid black;
+    vertical-align: middle;
+    text-align: justify;
+    background: rgb(221,221,221);
+}
+
+.articleUrl{
+    text-decoration: none;
+    margin-left: 1rem;
+    color: rgb(72,98,163);
+}
+
+.titleTable{
+    height: 2rem;
+    background: rgb(167,167,167);
+    vertical-align: middle;
+    text-decoration: underline;
+}
+
+.articleUrl:visited{
+    color: rgb(72,98,163);
+}
+
+.articleUrl:hover{
+    color: rgb(116,180,93);
+}

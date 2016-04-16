@@ -1,0 +1,42 @@
+.picker{
+    background-image: url("options.png");
+}
+
+
+.volet{
+    width: 20%;
+    text-align: center;
+    background-color: #f7efef;
+    border: 1px solid black;
+    margin-top: 0;
+    position: fixed;
+    z-index: 10;
+    display: none;
+    right : 0;
+}
+.volet button:hover{
+    color: rgb(116,180,93);
+}
+.volet button{
+    background: #E27575;
+    text-align: center;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px #9E3F3F;
+    cursor: pointer;
+}
+input[type="color"] {
+
+    width: 34px;
+    height: 23px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border: 1px solid #a0bef5 ;
+    padding: 1px 2px;
+}

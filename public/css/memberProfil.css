@@ -1,0 +1,28 @@
+.articleDetailTable{
+    border: 2px solid black;
+    margin: auto;
+    width: 95%;
+    font-family: roboto;
+    font-size: 80%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.profilDisplay{
+    height: 3rem;
+    border: 2px solid black;
+    vertical-align: middle;
+    background: rgb(221,221,221);
+    color: rgb(72, 98, 163);
+    margin-left: 1rem;
+    text-align: center;
+}
+
+.titleTable{
+    height: 2rem;
+    width: 50%;
+    background: rgb(167,167,167);
+    vertical-align: middle;
+    border-right: 2px solid black;
+    text-decoration: underline;
+}

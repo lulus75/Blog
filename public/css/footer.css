@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+}
+.container {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -6%;
+}
+.container:after {
+    content: "";
+    display: inline-block;
+}
+.footer {
+    height: 6%;
+    font-family: blog;
+    text-align: center;
+    width: 100%;
+    color: rgb(72,98,163);
+    background-color: rgb(233,233,233);
+    border-top: 8px solid rgb(116,180,93);
+
+}
+
+.footer p{
+    display: block;
+    color: rgb(217,126,0);
+}
+
+@media (min-width: 1024px){
+    .footer{
+        margin-top: 2rem;
+    }
+}

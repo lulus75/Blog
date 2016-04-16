@@ -1,0 +1,54 @@
+.titleTable{
+    height: 2rem;
+    background: rgb(167,167,167);
+    vertical-align: middle;
+    text-decoration: underline;
+}
+
+.articleListTable{
+    border: 2px solid black;
+    margin: auto;
+    width: 95%;
+    font-family: roboto;
+    font-size: 80%;
+    margin-bottom: 2rem;
+}
+
+.articleUrl{
+    text-decoration: none;
+    margin-left: 1rem;
+    color: rgb(72,98,163);
+    transition: color 0.4s ease 0s;
+}
+
+tr td{
+    height: 3rem;
+    border: 2px solid black;
+    vertical-align: middle;
+    text-align: justify;
+    background: rgb(221,221,221);
+}
+
+.articleUrl:visited{
+    color: rgb(72,98,163);
+}
+
+.articleUrl:hover{
+    color: rgb(116,180,93);
+}
+
+@media (min-width: 1024px){
+    .container{
+        max-width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (min-width: 1441px){
+    .container{
+        max-width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}

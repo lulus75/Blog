@@ -1,0 +1,45 @@
+.actionDisplayNone{
+    display: none;
+}
+
+.articleDetailTable{
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 2rem;
+    width: 95%;
+    font-family: roboto;
+    font-size: 80%;
+    margin-bottom: 2rem;
+}
+
+tr td{
+    height: 3rem;
+    border: 2px solid black;
+    vertical-align: middle;
+    background: rgb(221,221,221);
+    color: rgb(72, 98, 163);
+    margin-left: 1rem;
+    text-align: center;
+}
+
+.titleTable{
+    height: 2rem;
+    width: 50%;
+    background: rgb(167,167,167);
+    vertical-align: middle;
+    border-right: 2px solid black;
+    text-decoration: underline;
+}
+
+.articleUrl{
+    text-decoration: none;
+    color: rgb(72,98,163);
+}
+
+.articleUrl:visited{
+    color: rgb(72,98,163);
+}
+
+.articleUrl:hover{
+    color: rgb(116,180,93);
+}

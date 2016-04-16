@@ -1,0 +1,395 @@
+.imgEdit{
+    width: 1.5rem;
+    position: relative;
+    left: 90%;
+    top: -2.5rem;
+}
+
+
+.titleArticles{
+    font-size: 150%;
+    text-align: center;
+    margin-right: 30px;
+    font-family: robotoBold;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+.articles{
+    border: 2px solid rgb(209,209,209);
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    margin-bottom: 2rem;
+}
+
+.articlesContent{
+    text-align: center;
+}
+
+.readMore{
+    border-radius: 3px;
+    background: transparent;
+    cursor: pointer;
+    font-size: 100%;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    position: relative;
+    height: 3rem;
+    width: 60%;
+    padding-bottom: 2px;
+    color: rgb(72,98,163);
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+    border: 3px solid rgb(72,98,163);
+}
+
+.titleArticlesUrl{
+    text-decoration: none;
+    color: rgb(58,126,162);
+    transition: color 0.4s ease 0s;
+}
+
+.editComment{
+    display: none;
+}
+
+.editButton{
+    background: #72b35a;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    height: 25px;
+    padding-bottom: 2px;
+    width: 110px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+    transition: background 0.4s ease 0s;
+    margin-top: 4rem;
+    margin-left: -33rem;
+}
+
+.authorArticle{
+    display: inline-block;
+    color: rgb(72,98,163);
+    padding-bottom: 1rem;
+}
+
+.shortContent{
+    font-family: robotoItalic;
+    text-align: center;
+    font-size: 80%;
+}
+
+.content{
+    text-align: justify;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.author{
+    margin-left: 0.5rem;
+    color: rgb(174,174,174);
+}
+
+.btn{
+    border: none;
+    border-radius: 3px;
+    background: transparent;
+    color: rgb(171,35,37);
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 30px;
+    position: relative;
+    height: 25px;
+    padding-bottom: 2px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+    transition: color 0.4s ease 0s;
+}
+
+.btn:hover {
+    color: rgb(234,122,36)
+}
+
+.deleteComment{
+    margin-top: -30px;
+}
+.deleteBtn{
+    margin-top: 4px;
+    margin-left: 80px;
+    background: transparent;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    color: rgb(171,35,37);
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    height: 25px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+    transition: color 0.4s ease 0s;
+}
+
+.deleteBtn:hover {
+    color: rgb(255,0,0);
+}
+
+.none{
+    display: none;
+}
+
+/* Design form */
+
+.contentFormHide{
+    border: 1px solid rgb(218, 218, 218);
+    color: rgb(136, 136, 136);
+    margin-top: 2px;
+    margin-left: 1rem;
+    outline: 0px none;
+    padding: 3px 3px 3px 5px;
+    font-size: 12px;
+    line-height: 15px;
+    height: 134px;
+    width: 515px;
+}
+
+.registerForm {
+    text-align: center;
+    margin-bottom: 2rem;
+    max-width: 500px;
+    padding: 25px 15px 25px 10px;
+    font: 100% Georgia, "Times New Roman", Times, serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #E4E4E4;
+}
+
+.registerForm h1>span {
+    display: block;
+    font-size: 11px;
+}
+
+.registerForm label {
+    display: block;
+    margin: 0px;
+}
+
+.registerForm label>span {
+    float: left;
+    width: 20%;
+    font-family: roboto;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #888;
+}
+
+.registerForm input[type="text"], .registerForm input[type="password"], .registerForm input[type="date"], .registerForm input[type="email"], .registerForm textarea, .registerForm select {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 12px;
+    line-height:15px;
+}
+
+.registerForm textarea{
+    padding: 5px 3px 3px 5px;
+}
+
+.registerForm select {
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 74%;
+    height: 35px;
+    line-height: 25px;
+}
+
+.registerForm textarea{
+    height:100px;
+}
+
+.registerForm .button {
+    background: #72b35a;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    height: 25px;
+    padding-bottom: 2px;
+    width: 110px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+    transition: background 0.4s ease 0s;
+}
+
+.registerForm .button:hover {
+    background: rgb(134,206,105);
+}
+
+/* ERROR AND SUCCES BLOC */
+
+.errorBloc{
+    text-align: justify;
+    color: red;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: auto;
+    font-weight: bold;
+}
+
+.successBloc{
+    text-align: justify;
+    color: green;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: auto;
+    font-weight: bold;
+}
+
+
+/***************AJOUT ? DEPLACET******************/
+
+.comment{
+    display: none;
+    border: 2px solid rgb(209,209,209);
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 1rem;
+    margin-right: 10px;
+    margin-bottom: 1.5rem;
+}
+
+
+.commentNumber{
+    margin-left: 0.5rem;
+    font-family: roboto;
+    font-size: 70%;
+}
+
+.commentDisp{
+    margin: 1rem;
+    margin-bottom: 0.5rem;
+    width: 80%;
+    padding: 0.5rem;
+    border: 2px solid rgb(217, 126, 0);
+    border-radius: 10px;
+}
+
+.commentAuthor{
+    margin-left: 1.2rem;
+    color: rgb(174,174,174);
+    font-size: 80%;
+}
+
+.cancel{
+    display: none;
+    border: none;
+    border-radius: 3px;
+    background: transparent;
+    color: rgb(171,35,37);
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 30px;
+    position: relative;
+    height: 25px;
+    padding-bottom: 2px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+    transition: color 0.4s ease 0s;
+}
+
+.cancel:hover {
+    color: rgb(234, 122, 36)
+}
+
+@media (min-width: 641px) {
+    .shortContent{
+        font-size: 100%;
+    }
+    .commentNumber{
+        font-size: 80%;
+    }
+}
+
+@media (min-width: 1024px){
+    .readMore{
+        border-radius: 3px;
+        background: transparent;
+        color: rgb(255,255,255);
+        cursor: pointer;
+        font-size: 100%;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        position: relative;
+        height: 3rem;
+        width: 40%;
+        padding-bottom: 2px;
+        text-shadow: 0 -1px 0 rgb(255,255,255);
+        border: 3px solid rgb(255,255,255);
+        transition: border 1s ease 0s;
+        transition: color 0.4s ease 0s;
+    }
+
+    .articles:hover .readMore{
+        color: rgb(72,98,163);
+        text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+        border: 3px solid rgb(72,98,163);
+    }
+
+    .titleArticlesUrl:hover{
+        color: rgb(116,180,93);
+    }
+
+    .container{
+        max-width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .content{
+        font-size: 110%;
+    }
+
+    .author{
+        text-align: center;
+    }
+
+    .registerForm{
+        max-width: 100%;
+    }
+
+    .content{
+        text-align: center;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (min-width: 1441px){
+    .container{
+        max-width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .readMore{
+        width: 20%;
+    }
+}

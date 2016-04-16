@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "blog";
+    src: url('polices/IDroid.otf');
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url('polices/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: "robotoBold";
+    src: url('polices/Roboto-Condensed.ttf');
+}
+
+@font-face {
+    font-family: "robotoLight";
+    src: url('polices/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: "robotoItalic";
+    src: url('polices/Roboto-LightItalic.ttf');
+}
+
+@font-face {
+    font-family: "titleArticle";
+    src: url('polices/Techno.ttf');
+}
+
+header{
+    border-top: 8px solid rgb(116,180,93);
+    border-bottom: 8px solid rgb(72,98,163);
+    background-color: rgb(233,233,233);
+    height: 70px;
+    font-size: 2rem;
+    font-family: blog;
+    z-index: 99;
+    width: 100%;
+}
+
+
+
+/* END */
+
+
+.goBackH2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.goBack{
+    text-decoration: none;
+    margin-left: 1rem;
+    text-align: center;
+    color: rgb(72,98,163);
+}
+
+.goBack:visited{
+    color: rgb(72,98,163);
+}
+
+.goBack:hover{
+    color: rgb(116,180,93);
+}
+
+.titlePage{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: rgb(58,126,162);
+    font-size: 180%;
+}
+
+.title{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.TitleColorBlue{
+    color: rgb(72,98,163);
+}
+
+.TitleColorGreen{
+    color: rgb(116,180,93);
+}
+
+
+@media (min-width: 1024px) {
+    header{
+        position: fixed;
+        top: 0px;
+    }
+
+    .titlePage{
+        margin-top: 14rem;
+    }
+
+    .navBar{
+        position: relative;
+        margin-top: 22px;
+        border-top: 8px solid rgb(72,98,163);
+        border-bottom: 8px solid rgb(116,180,93);
+        background-color: rgb(233,233,233);
+        height: 70px;
+        font-size: 2rem;
+        font-family: blog;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu{
+        margin-top: 1rem;
+    }
+}
